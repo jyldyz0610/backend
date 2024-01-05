@@ -1,0 +1,7 @@
+USE dev_kb;
+
+CREATE TABLE IF NOT EXISTS links (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    link VARCHAR(255) NOT NULL
+);
+

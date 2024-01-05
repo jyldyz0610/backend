@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS dev_kb;
+
+CREATE USER IF NOT EXISTS 'kbuser'@'localhost' IDENTIFIED BY 'devkb2023!';
+
+GRANT SELECT, UPDATE, INSERT, DELETE ON dev_kb.* TO 'kbuser'@'localhost';
+
+FLUSH PRIVILEGES;
+
